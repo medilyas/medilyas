@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hello World in Different Languages</title>
+  <style>
+    body {
+      font-size: 24px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div id="hello-world">Hello World!</div>
+
+  <script>
+    const helloLanguages = [
+      'Hello World!',
+      '¡Hola Mundo!',
+      'Hallo Welt!',
+      'Ciao Mondo!',
+      'こんにちは、世界！',
+      'مرحبا بالعالم!',
+      'Привет, мир!',
+    ];
+
+    let index = 0;
+    const helloWorldElement = document.getElementById('hello-world');
+
+    function updateHelloWorld() {
+      helloWorldElement.textContent = helloLanguages[index];
+      index = (index + 1) % helloLanguages.length;
+    }
+
+    setInterval(updateHelloWorld, 1000);
+  </script>
+</body>
+</html>
