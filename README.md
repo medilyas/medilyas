@@ -1,5 +1,5 @@
 <div align="center">
-![Hello World in Different Languages](https://github.com/medilyas/medilyas/hello-world-languages.html)
+![Hello World in Different Languages](https://github.com/medilyas/medilyas/blob/main/hello-world-languages.html)
   <!-- <img src="https://rishavanand.github.io/static/images/greetings.gif" align="center" style="width: 100%" /> -->
 </div>  
   
